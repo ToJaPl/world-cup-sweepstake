@@ -20,6 +20,13 @@
         </div>
       </section>
 
+      <nav class="mobile-actions" aria-label="Quick sections">
+        <button id="mobile-refresh-button" type="button">Refresh</button>
+        <a href="#leaderboard-panel">Table</a>
+        <a href="#fixtures-panel">Fixtures</a>
+        <a href="#draw-panel">Draw</a>
+      </nav>
+
       <section class="summary-grid">
         <article class="summary-card">
           <span>Leader</span>
@@ -40,7 +47,7 @@
       </section>
 
       <section class="layout">
-        <article class="panel leaderboard-panel">
+        <article id="leaderboard-panel" class="panel leaderboard-panel">
           <div class="panel-head">
             <div>
               <p class="eyebrow">Table</p>
@@ -67,7 +74,7 @@
           </div>
         </article>
 
-        <article class="panel">
+        <article id="fixtures-panel" class="panel">
           <div class="panel-head">
             <div>
               <p class="eyebrow">Next Up</p>
@@ -79,7 +86,7 @@
         </article>
       </section>
 
-      <section class="panel">
+      <section id="draw-panel" class="panel">
         <div class="panel-head">
           <div>
             <p class="eyebrow">Draw</p>

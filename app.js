@@ -51,6 +51,7 @@ for (const person of DRAW) {
 
 const els = {
   refresh: document.querySelector("#refresh-button"),
+  mobileRefresh: document.querySelector("#mobile-refresh-button"),
   status: document.querySelector("#status-pill"),
   leader: document.querySelector("#leader-name"),
   completed: document.querySelector("#completed-count"),
@@ -64,6 +65,7 @@ const els = {
 };
 
 els.refresh.addEventListener("click", load);
+els.mobileRefresh.addEventListener("click", load);
 load();
 
 async function load() {
